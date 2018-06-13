@@ -1,0 +1,92 @@
+body {
+  font-family: 'Avenir', 'Raleway', 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+
+.navbar-custom {
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.navbar .navbar-nav, .navbar .navbar-collapse {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;;
+}
+
+.navbar-custom a {
+  font-weight: 600;
+  color: #353535;
+  margin-left: 40px;
+  text-decoration: underline;
+}
+
+.navbar-custom .nav li a:hover {
+  font-style: italic;
+  color: #353535;
+  outline: none;
+  background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+
+.jumbotron {
+  background-color: white !important;
+  align-items: center;
+  height: 100vh;
+}
+
+.jumbotron h3, .container h3 {
+  font-weight: 600;
+  font-style: italic;
+  margin: 40px;
+  color: #353535;
+  text-align: center;
+}
+
+#wgtn {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+#ex {
+    margin-top: 50px;
+    font-style: italic;
+    color: #353535;
+    font-size: 16px;
+}
+
+#ex a, #ex p:hover {
+    text-decoration-color: #faed25;
+    font-weight: 600;
+}
+
+.container {
+    padding-top: 150px;
+}
+
+#left-img {
+    margin-left: 20px;
+}
+
+.row .body-text-right {
+    margin-top: 90px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.row .body-text-left {
+    margin-top: 90px;
+    text-align: right;
+    font-size: 16px;
+}
+
+#f {
+    padding-bottom: 80px;
+}
